@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>API REST NoteLight</title>
+</head>
+<body>
+	<h1>API REST NoteLight</h1>
+	
+	<p>/api/...</p>
+	
+	<h2>Users</h2>
+	<p>Create User : .../users/create (POST)  --- Need params ("mail" and "password")</p>
+	<p>Connecte User : .../users/connect (POST)  --- Need params ("mail" and "password")</p>
+	<p>Get User Notes : .../users/{id}/notes (GET)</p>
+	
+	<h2>Notes</h2>
+	<p>Get Note : .../notes/{id} (GET)</p>
+	<p>Create Note : .../notes (POST)  --- Need params ("idUser" and "message")</p>
+	<p>Update Note : .../notes (PUT)  --- Need params ("idUser", "idNote" and "message")</p>
+	<p>Remove Note : .../notes/{id} (DELETE)</p>
+
+</body>
+</html>
